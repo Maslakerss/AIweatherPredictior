@@ -1,3 +1,7 @@
+# /home/maslakers/myproject
+or
+# /home/maslakers/mysqlproject
+
 # AIweatherPredictior
 
 #Zalozenia
