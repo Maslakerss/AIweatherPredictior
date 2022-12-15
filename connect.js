@@ -122,8 +122,8 @@ async function AddUser(name, surname, email, pesel, tytul, isbn, autor) {
   	console.log(res[0])
   	bookId = res[0].insertId;
   })
-
-  await _AddWypozyczenia(insertId, bookId, date);
+  // NIe dziala
+  //await _AddWypozyczenia(insertId, bookId, date);
 }
 
 async function AddBook(tutyl, isbn, autor) {
